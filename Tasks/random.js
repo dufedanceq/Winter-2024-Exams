@@ -1,6 +1,8 @@
 // Generate random integer value in given range
 
-randomNum = (minNum, maxNum) => {
+'use strict';
+
+const randomNum = (minNum, maxNum) => {
   if (maxNum === undefined) {
     maxNum = minNum;
     minNum = 0;
