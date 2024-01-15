@@ -1,8 +1,8 @@
 // Return an array without duplicates
 
-duplicate = (value, numberOfRepeats) => {
+const duplicate = (value, numberOfRepeats) => {
   if (numberOfRepeats <= 0) return [];
-    result = [];
+    const result = [];
     for (let i = 0; i < numberOfRepeats; i++) {
       result[i] = value;
     }
