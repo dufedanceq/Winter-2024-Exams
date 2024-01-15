@@ -3,10 +3,9 @@
 randomNum = (minNum, maxNum) => {
   if (maxNum === undefined) {
     maxNum = minNum;
-    return Math.floor(Math.random() * (maxNum + 1));
-  } else {
+    minNum = 0;
+  }
     return minNum + Math.floor(Math.random() * (maxNum - minNum + 1));
   }
-};
 
 module.exports = randomNum;
